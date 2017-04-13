@@ -1,7 +1,6 @@
 // Imports the express Node module.
 var express = require('express');
 var bodyParser = require('body-parser');
-var util = require("./util");
 var database = require('./database.js');
 var validate = require('express-jsonschema').validate;
 
